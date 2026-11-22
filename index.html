@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио разработчика — Сайты и Telegram-боты</title>
+  <meta name="description" content="Разработка адаптивных сайтов и практичных Telegram-ботов на Python и JavaScript. Чистый код, решение рутинных задач и доведение до стабильного результата.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Портфолио разработчика — Сайты и Telegram-боты">
+  <meta property="og:description" content="Разработка понятных веб-интерфейсов и практичных Telegram-ботов для автоматизации задач.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Шрифты: Manrope (кириллица, современный геометрический гротеск) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#hero" class="logo" aria-label="На главную">
+        <span class="logo-dot"></span>
+        <span>[Разработчик]</span>
+      </a>
+
+      <nav aria-label="Основное меню">
+        <ul class="nav-links">
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#approach">Подход</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="nav-cta">
+        <span>Обсудить задачу</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Первый экран (Hero) -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="status-badge">
+            <span class="status-pulse"></span>
+            <span>Свободен для новых проектов</span>
+          </div>
+
+          <h1 class="hero-title">
+            Создаю сайты и&nbsp;ботов, которые <span class="highlight">освобождают время</span> и&nbsp;работают на&nbsp;вас
+          </h1>
+
+          <p class="hero-subtitle">
+            <strong>Боты</strong>&nbsp;— свобода от&nbsp;рутины.&nbsp;<strong>Сайты</strong>&nbsp;— свобода масштаба.
+          </p>
+
+          <p class="hero-desc">
+            Проектирую понятные веб-интерфейсы и&nbsp;автоматизирую рутинные процессы в&nbsp;Telegram. Пишу чистый, поддерживаемый код и&nbsp;довожу задачи до&nbsp;стабильного рабочего результата.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Смотреть проекты</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="19 12 12 19 5 12"></polyline>
+              </svg>
+            </a>
+
+            <a href="https://t.me/[ЗАПОЛНИТЬ_ТЕЛЕГРАМ]" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+              </svg>
+              <span>Написать в Telegram</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Портрет разработчика с «дышащей» геометрией -->
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-card">
+              <div class="avatar-frame">
+                <img src="avatar.jpg" alt="Разработчик Python и Fullstack" class="avatar-photo" width="633" height="684">
+              </div>
+            </div>
+
+            <!-- Легкие парящие бейджи специализации -->
+            <div class="floating-pill-bot">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                <circle cx="12" cy="5" r="2"></circle>
+                <path d="M12 7v4"></path>
+                <line x1="8" y1="16" x2="8" y2="16"></line>
+                <line x1="16" y1="16" x2="16" y2="16"></line>
+              </svg>
+              <span>Telegram &amp; AI Bots</span>
+            </div>
+            <div class="floating-pill-site">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <span>Web &amp; Automation</span>
+            </div>
+            <div class="avatar-floating-tag">
+              <span>Fullstack &amp; Bot Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция проектов -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Портфолио решений</span>
+          <h2 class="section-title">Проекты, которые приносят пользу</h2>
+          <p class="section-lead">
+            Каждый проект решал конкретную боль бизнеса: сокращал время сотрудников, снижал расходы или привлекал новых клиентов.
+          </p>
+        </div>
+
+        <!-- Интерактивный фильтр категорий -->
+        <div class="filter-bar" role="tablist" aria-label="Фильтр категорий проектов">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            <span>Все проекты</span>
+            <span class="filter-count" id="count-all">6</span>
+          </button>
+          <button class="filter-btn" data-filter="bots" role="tab" aria-selected="false">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+              <circle cx="12" cy="5" r="2"></circle>
+              <path d="M12 7v4"></path>
+              <line x1="8" y1="16" x2="8" y2="16"></line>
+              <line x1="16" y1="16" x2="16" y2="16"></line>
+            </svg>
+            <span>Боты</span>
+            <span class="filter-count" id="count-bots">3</span>
+          </button>
+          <button class="filter-btn" data-filter="sites" role="tab" aria-selected="false">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span>Сайты</span>
+            <span class="filter-count" id="count-sites">3</span>
+          </button>
+        </div>
+
+        <!-- Динамическая сетка проектов из projects.js -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Рендерится через main.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция «Мой подход» (3 принципа) -->
+    <section class="section approach-section" id="approach">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-eyebrow">Принципы работы</span>
+          <h2 class="section-title">Как я отношусь к разработке</h2>
+          <p class="section-lead">
+            Три простых правила, которые гарантируют спокойствие заказчика и качество финального продукта.
+          </p>
+        </div>
+
+        <div class="principles-grid">
+          <div class="principle-card">
+            <span class="principle-num">01</span>
+            <h3 class="principle-title">Понятный код без оверинжиниринга</h3>
+            <p class="principle-desc">
+              Пишу структурированный код без избыточных библиотек. Логика аккуратно разделена, код откомментирован, а проект легко запустить на сервере по понятной инструкции в README.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <span class="principle-num">02</span>
+            <h3 class="principle-title">Прямая связь и фокус на MVP</h3>
+            <p class="principle-desc">
+              Вы общаетесь напрямую со мной. Быстро согласовываем ТЗ, собираем рабочий прототип для проверки задачи и оперативно вносим правки без бюрократии.
+            </p>
+          </div>
+
+          <div class="principle-card">
+            <span class="principle-num">03</span>
+            <h3 class="principle-title">Соблюдение сроков и договоренностей</h3>
+            <p class="principle-desc">
+              Трезво оцениваю объем задач на старте. Регулярно показываю промежуточный прогресс, тестирую работу перед сдачей и отдаю готовый результат в согласованный срок.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Финальный экран (Контакты) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <span class="contact-badge">Связь напрямую</span>
+          <h2 class="contact-title">Есть идея для сайта или бота?</h2>
+          <p class="contact-desc">
+            Напишите мне в Telegram. Расскажите о вашей задаче или пришлите набросок ТЗ — я сориентирую по срокам, стеку и предложу оптимальное решение.
+          </p>
+
+          <div class="contact-actions">
+            <a href="https://t.me/[ЗАПОЛНИТЬ_ТЕЛЕГРАМ]" target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+              </svg>
+              <span>Написать в Telegram @[ЗАПОЛНИТЬ]</span>
+            </a>
+          </div>
+
+          <div class="contact-secondary-ways">
+            <span>Или напишите на почту:</span>
+            <a href="mailto:[ЗАПОЛНИТЬ_EMAIL]@example.com">[ЗАПОЛНИТЬ: email@example.com]</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <span>&copy; 2026 [Ваше имя]. Все права защищены.</span>
+        <span class="footer-placeholder-note">Прототип портфолио</span>
+      </div>
+      <div>
+        <span>Часовой пояс: МСК (UTC+3) &bull; Ответ обычно в течение 1–2 часов</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Скрипты: изолированная база данных + логика интерфейса -->
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
